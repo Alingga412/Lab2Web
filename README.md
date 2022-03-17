@@ -1,3 +1,8 @@
+## Langkah 1
+1. Membuat Dokumen HTML Dengan nama 'lab2_css_dasar.html'.
+
+2. Lalu buat struktur dasar HTML.
+''''html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,3 +28,9 @@
     </div>
 </body>
 </html>
+'''
+
+Maka hasilnya akan seperti berikut.
+![StrukturHTML](img/ss_struktur_html.png)
+
+## Langkah 2 'Mendeklarasikan CSS internal'
