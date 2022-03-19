@@ -1,3 +1,94 @@
+/* Custom */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    color: rgb(14, 192, 14);
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+header {
+    margin: 40px;
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(41, 41, 41);
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    background-color: rgb(109, 109, 109);
+    padding: 0 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    padding: 20px;
+    background-color: rgb(121, 121, 121);
+    transition: .3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+#intro {
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 16px;
+}
+
+.button {
+    background-color: rgb(109, 109, 109);
+    padding: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: #fff;
+}
+
+b,
+i {
+    color: orange;
+}
+
+#paragraf-1 {
+    color: red;
+}
+
+.text-paragraf {
+    color: blue;
+}
+
+
+
+/* Pratikum */
+
+
 nav {
     background: #20a579;
     color:#fff;
@@ -16,7 +107,7 @@ nav .active, nav a:hover {
 
 /* ID Selector */
 #intro {
-    background: #418fb1;
+    background: #000000;
     border: 1px solid #099249;
     min-height: 100px;
     padding: 10px;
