@@ -2,7 +2,7 @@
 1. Membuat Dokumen HTML Dengan nama `lab2_css_dasar.html`.
 
 2. Lalu buat struktur dasar HTML.
-````html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
