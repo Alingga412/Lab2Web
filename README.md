@@ -34,3 +34,106 @@ Maka hasilnya akan seperti berikut.
 ![StrukturHTML](img/ss_struktur_html.png)
  
 ## Langkah 2 `Mendeklarasikan CSS internal`
+1. Tambahkan kode berikut kedalam head HTML.
+
+```html
+<!-- CSS Internal -->
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    header {
+      min-height: 80px;
+      border-bottom: 1px solid #77CCEF;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #0F189F;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    h1 i {
+      color: #6d6a6b;
+    }
+  </style>  
+  ```
+
+  2. Maka hasilnya akan seperti berikut.
+
+  ![CSS Internal](img/ss_css_internal.png)
+
+  ## Langkah 3 `Menambahkan Inline CSS`
+  1. Tambahkan kode berikut kedalam tag `<p>`.
+  ```html
+<p style="text-align: center; color: #ccd8e4;">
+```
+
+2. Maka hasilnya akan seperti berikut.
+![CSS inline](img/ss_css_inline.png)
+
+## Langkah 4 `membuat CSS Eksternal`
+1. Buat file baru bernama `style_eksternal.css`.
+2. Deklarasikan kode berikut ke dalamnya.
+```css
+nav {
+  background: #20A759;
+  color:#fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding:10px 20px;
+}
+
+nav .active, nav a:hover {
+  background: #0B6B3A;
+}
+```
+
+3. Sisipkan tag `<link>` untuk menghubungkan antara file HTML dengan file CSS dibagian `<head>`.
+
+```html
+<!-- menyisipkan css eksternal -->
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+```
+> Apabila tidak menambahkan tag ini maka html tidak akan mendapatkan stylenya/tidak valid.
+4. Maka hasilnya akan seperti berikut.
+![CSS Eksternal](img/ss_css_eksternal.png)
+
+## Langkah 5 `Menambahkan CSS Selector`
+1. Tambahkan Selector menggunakan  _ID_ dan _Class_ pada file `style_eksternal.css`.
+```css
+/* ID Selector */
+
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #E42A42;
+}
+```
