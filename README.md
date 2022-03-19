@@ -1,4 +1,4 @@
-## Langkah 1
+# Tugas Lab 2 Web
 ## Profil
 | # | Biodata |
 | -------- | --- |
@@ -6,6 +6,7 @@
 | **NIM** | 312010276 |
 | **Kelas** | TI.20.A.2 |
 | **Mata Kuliah** | Pemrograman Web |
+## Langkah 1
 
 1. Membuat Dokumen HTML Dengan nama `lab2_css_dasar.html`.
 
