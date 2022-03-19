@@ -1,4 +1,12 @@
 ## Langkah 1
+## Profil
+| # | Biodata |
+| -------- | --- |
+| **Nama** | Alingga Reandito |
+| **NIM** | 312010276 |
+| **Kelas** | TI.20.A.2 |
+| **Mata Kuliah** | Pemrograman Web |
+
 1. Membuat Dokumen HTML Dengan nama `lab2_css_dasar.html`.
 
 2. Lalu buat struktur dasar HTML.
