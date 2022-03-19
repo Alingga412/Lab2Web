@@ -137,3 +137,11 @@ nav .active, nav a:hover {
     background: #E42A42;
 }
 ```
+
+2. Maka hasilnya akan seperti berikut.
+![Selector ID Class](img/ss_selector_idclass.png)
+
+> ### Jadi cantik bukan?
+
+# Pertanyaan
+1. Lakukan eksperimen dengan mengubah
